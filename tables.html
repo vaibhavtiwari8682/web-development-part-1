@@ -1,0 +1,61 @@
+<!-- table is basically arrangement of data in form of rows and column -->
+<!-- it consists of 
+ 1 - thead tells the heading of table
+ 2 - tbody holds the actual content
+ 3 - tfoot contains summarisation 
+ 4 - tr usedto create row
+ 5 - td used make data entry
+ 6 -  th used to create heading in the table  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <th>Student id</th>
+            <th>Student name</th>
+            <th>Gender</th>
+            <th>Age</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1234</td>
+                <td>Bill</td>
+                <td>Male</td>
+                <td>17</td>
+            </tr>
+
+<!-- HTML mein rowspan aur colspan attributes ka use table ke cells ko multiple rows ya columns mein merge karne ke liye hota hai. -->
+
+
+             <tr>
+                <td>1234</td>
+                <td>John</td>
+                <td>Male</td>
+                <td rowspan="3">17</td>
+            </tr>
+
+             <tr>
+                <td>1234</td>
+                <td>ron</td>
+                <td>Male</td>
+                
+            </tr>
+
+             <tr>
+                <td>1234</td>
+                <td>corn</td>
+                <td>Male</td>
+              
+            </tr>
+        </tbody>
+
+    </table>
+    
+</body>
+</html>

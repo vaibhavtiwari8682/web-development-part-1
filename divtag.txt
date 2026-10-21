@@ -1,0 +1,4 @@
+<!-- HTML mein <div> tag ka use webpage ke multiple HTML elements ko ek group ya container mein rakhne ke liye hota hai. Iska use mainly CSS styling aur JavaScript ke through elements ko manage karne mein hota hai. -->
+<!-- div is a non symentic tag used to create division -->
+ <!-- it can also be said as it is a container or wrapping used to keep all the data inside it -->
+  

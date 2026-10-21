@@ -1,0 +1,32 @@
+<!-- HTML mein <form> tag ka use user se input collect karne ke liye hota hai, jaise login, registration, contact form aur feedback form. -->
+<!-- input -- HTML forms mein <input> tag ka use user se different types ka data lene ke liye hota hai, jaise name, email, password, date, file aur checkbox selection. -->
+<!-- label -- HTML forms mein <label> tag ka use kisi input field ka naam ya description dene ke liye hota hai. Isse user ko pata chalta hai ki field mein kya information enter karni hai. -->
+<!-- HTML mein <label> aur id ka relation yeh hai ki label ke for attribute ki value, input element ke id ke same honi chahiye. Isse label us input field se connect ho jata hai. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="Email">Enter your Email id</label>
+        <input type="text" id="Email" placeholder="enter ur email">
+
+        <!-- placeholder
+HTML mein placeholder attribute ka use input field ya textarea ke andar ek short hint ya example dikhane ke liye hota hai -->
+        <br/>
+        <br/>
+        <!-- HTML mein <br> tag ka use text ya content ke beech line break dene ke liye hota hai. -->
+         <label for="Password">Enter your secure Password</label>
+        <input type="text" id="Password">
+        
+        <br/>
+        <br/>
+
+         <input type="Submit" value="Click here">
+    </form>
+    
+</body>
+</html>
